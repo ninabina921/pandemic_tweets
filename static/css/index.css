@@ -14,6 +14,10 @@
  * Header
  */
 
+header{
+  text-align: left;
+}
+
 h3 {
   font-family: 'Red Hat Text', sans-serif;
 }
@@ -56,7 +60,7 @@ body {
 }
 
 .overview {
-  background-color: #49d0ee;
+  background-color: #2A9D8F;
   height: auto;
   display: flex;
   align-items: center;
@@ -72,7 +76,7 @@ body {
 }
 
 .demo {
-  background-color: #2d90a6;
+  background-color: #264653;
   height: auto;
 }
 
@@ -136,7 +140,7 @@ body {
 }
 
 .about-text {
-  background-color: #2d90a6;
+  background-color: #264653;
   padding: 0.5em 1em 0.5em 1em;
   width: fit-content;
   margin: 10px;
@@ -157,7 +161,7 @@ p.demo-text {
   width: fit-content;
   margin: 10px;
   color: white;
-  background-color: #49d0ee;
+  background-color: #2A9D8F;
 }
 
 div.about-div-left {
@@ -235,7 +239,7 @@ th {
   font-size: 11pt; 
   font-family: 'Red Hat Text', sans-serif;
   border-collapse: collapse; 
-  border: 1px solid #2d90a6;
+  border: 1px solid #264653;
 
 }
 
@@ -245,11 +249,11 @@ th {
 }
 
 .mystyle tr {
-  background: #2d90a6;
+  background: #264653;
 }
 
 .mystyle tr:hover {
-  background: #2c545e;
+  background: #2a9d908c;
   cursor: pointer;
 }
 

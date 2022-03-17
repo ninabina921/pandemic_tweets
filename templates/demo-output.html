@@ -42,8 +42,9 @@
     
 <div class="container d-flex p-3 mx-auto flex-column">
   <header class="mb-auto">
-    <div>
-      <h3 class="float-md-start">{{title}}</h3>
+    <div class="row">
+      <h2 class="float-md-start header">{{ title }}</h3>
+        <h4 class="float-md-start header">{{ subtitle }}</h3>
     </div>
   </header>
 
@@ -55,10 +56,7 @@
           <p class="about-text">Out of <b>{{tweets}}</b> tweets for <b>@{{handle}}</b>, our model detected <b>{{misinfo}}</b> tweet(s) that may contain misinformation. See labeled tweets below.</p>
         <div class="row about-text">
         <table class="mystyle">
-          {% for table in tables %}
-            {{titles[loop.index]}}
-            {{ table|safe }}
-          {% endfor %}
+          {{ html | safe}}
         </table>
       </div>
       </div>
