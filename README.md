@@ -1,10 +1,10 @@
-## BCC: BERT Catches COVID
+## BCC ML: BERT Catches COVID using Machine Learning
 
 ![image](https://user-images.githubusercontent.com/42880953/157790065-affb219f-b970-42f6-a5ff-3ea64508c49c.png)
 
 ## Description
 
-What is BCC? Good question! BCC is a tool to detect COVID-19 misinformation in text-based social media posts.
+What is BCC ML? Good question! BCC ML is an open-source tool that labels tweets as misinformation, in an effort to educate the public about misinformation on Twitter.
 
 ### Built with
 
